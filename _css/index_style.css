@@ -68,6 +68,13 @@ body {
     font-family: var(--font-s);
 }
 
+.conteudo__texto__animacao:hover {
+    .cabecalho__menu__link{
+        background-color: var(--cor-t);
+    }
+    color: var(--cor-t);
+}
+
 .conteudo__links {
     display: flex;
     flex-direction: column;
