@@ -20,9 +20,7 @@ body {
     color: var(--cor-s);
 }
 
-.cabecalho {
-    
-}
+.cabecalho {}
 
 .cabecalho__menu{
     display: flex;
@@ -62,15 +60,22 @@ body {
     font-family: var(--font-p);
 }
 
-.conteudo__texto__paragrafos__paragrafo {}
+.conteudo__texto__paragrafos {
+    gap: 5px;
+}
 
 .conteudo__texto__paragrafos__paragrafo {
     font-size: 1.5rem;
     font-family: var(--font-s);
 }
 
-.conteudo__texto__animacao:hover {
+.conteudo__texto__paragrafos__animacao {
     color: var(--cor-t);
+    text-decoration: none;
+}
+
+.conteudo__texto__paragrafos__animacao:hover {
+    text-decoration: underline;
 }
 
 .conteudo__links {
