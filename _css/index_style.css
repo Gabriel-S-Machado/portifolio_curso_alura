@@ -71,9 +71,6 @@ body {
 
 .conteudo__texto__animacao:hover {
     color: var(--cor-t);
-    .cabecalho__menu__link{
-        background-color: var(--cor-t);
-    }
 }
 
 .conteudo__links {
