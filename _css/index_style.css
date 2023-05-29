@@ -100,6 +100,7 @@ body {
     justify-content: center;
     gap: 16px;
     align-items: center;
+    text-align: center;
     text-decoration: none;
     font-size: 1.5rempx;
     font-weight: 600;
