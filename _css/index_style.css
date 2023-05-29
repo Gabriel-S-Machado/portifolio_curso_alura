@@ -16,7 +16,6 @@
 
 body {
     background-color: var(--cor-p);
-    /* height: 100vh; */
     box-sizing: border-box;
     color: var(--cor-s);
 }
@@ -84,7 +83,7 @@ body {
 }
 
 .conteudo__links__subtitulo {
-    font-display: var(--font-p);
+    font-family: var(--font-p);
     font-weight: 400;
 }
 
@@ -116,7 +115,7 @@ body {
 .rodape {
     background-color: var(--cor-t);
     padding: 24px;
-    width: 100vh;
+    width: 100%;
     text-align: center;
     font-family: var(--font-s);
     font-size: 1.5rempx;
