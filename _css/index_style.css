@@ -99,7 +99,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
-    text-align: center;
+    align-items: center;
     text-decoration: none;
     font-size: 1.5rempx;
     font-weight: 600;
